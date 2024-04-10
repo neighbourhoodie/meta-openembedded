@@ -120,3 +120,5 @@ python() {
 }
 
 CVE_PRODUCT = "open-vm-tools vmware:tools"
+
+CVE_STATUS[CVE-2009-1147] = "cpe-incorrect: This issue is not valid as VMware ACE is no longer used. open-vm-tools is used instead which is part of the VMware ecosystem but not affected by this CVE."
