@@ -10,6 +10,8 @@ SRC_URI[sha256sum] = "89af3b5ef7277753ef7a7b5374ae017c6b9e304db3b688f1948e73e103
 # inherit dos2unix
 S = "${WORKDIR}/${BP}-Source"
 
+CVE_STATUS[CVE-2007-6353] = "cpe-incorrect: Current version 0.28.0 is not affected by the issue."
+
 inherit cmake gettext
 
 do_install:append:class-target() {
