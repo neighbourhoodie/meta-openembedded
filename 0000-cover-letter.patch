@@ -1,0 +1,19 @@
+From b1cb1ee4ae2466a0558563574fb2e22d816d7f17 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 10 Apr 2024 16:02:38 +0200
+Subject: [PATCH 0/1] civetweb: Update CVE-2019-3821 status
+
+None of the affected versions is used by meta-openembedded.
+Affected version: 1.12 and below
+meta-openembedded version: 1.16
+No action required. Remove this issue from the CVE list.
+
+Ninette Adhikari (1):
+  civetweb: Update CVE-2019-3821 status
+
+ meta-networking/recipes-connectivity/civetweb/civetweb_1.16.bb | 2 ++
+ 1 file changed, 2 insertions(+)
+
+-- 
+2.44.0
+
