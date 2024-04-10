@@ -1,0 +1,20 @@
+From 078f53348bad63bed0918eab67990ff9b5add83c Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 10 Apr 2024 14:53:24 +0200
+Subject: [PATCH 0/1] dash: Update CVE-2024-21485 status
+
+The recipe used in the meta-openembedded is a different dash package compared to the one which has the CVE issue.
+Package used in meta-openembedded: https://git.kernel.org/pub/scm/utils/dash/dash.git
+Package with CVE issue: https://github.com/plotly/dash
+
+No action required. This issue can be removed from the CVE list.
+
+Ninette Adhikari (1):
+  dash: Update CVE-2024-21485 status
+
+ meta-oe/recipes-shells/dash/dash_0.5.12.bb | 2 ++
+ 1 file changed, 2 insertions(+)
+
+-- 
+2.44.0
+
