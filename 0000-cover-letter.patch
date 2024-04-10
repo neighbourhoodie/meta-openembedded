@@ -1,0 +1,17 @@
+From 9fd18bb7036f4f3cd2b92d1abb8311bd1cceb7eb Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 10 Apr 2024 16:45:33 +0200
+Subject: [PATCH 0/1] graphviz: Update CVE-2014-9157 status
+
+Current version 8.1.0 is not affected by this issue. 
+Affected versions: 8.0.*
+
+Ninette Adhikari (1):
+  graphviz: Update CVE-2014-9157 status
+
+ meta-oe/recipes-graphics/graphviz/graphviz_8.1.0.bb | 2 ++
+ 1 file changed, 2 insertions(+)
+
+-- 
+2.44.0
+
