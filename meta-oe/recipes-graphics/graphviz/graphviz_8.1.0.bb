@@ -30,6 +30,8 @@ SRC_URI:append:class-nativesdk = "\
 "
 SRC_URI[sha256sum] = "d593695fdaa8a19297523b679ad13d3ef2027b0b7f14cc2bc23e77969ed81565"
 
+CVE_STATUS[CVE-2014-9157] = "cpe-incorrect: Current version 8.1.0 is not affected by the issue."
+
 PACKAGECONFIG ??= "librsvg"
 PACKAGECONFIG[librsvg] = "--with-librsvg,--without-librsvg,librsvg"
 
