@@ -1,0 +1,16 @@
+From b73322cf8f55727dd4139b3a89d34aac6de183fe Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 10 Apr 2024 16:37:15 +0200
+Subject: [PATCH 0/1] memcached: Update CVE-2022-26635 status
+
+This issue is for php-memcached and this is not relevant for meta-openembedded.
+
+Ninette Adhikari (1):
+  memcached: Update CVE-2022-26635 status
+
+ meta-networking/recipes-support/memcached/memcached_1.6.17.bb | 2 ++
+ 1 file changed, 2 insertions(+)
+
+-- 
+2.44.0
+
