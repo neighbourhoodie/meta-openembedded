@@ -1,0 +1,17 @@
+From ffeb4e8aa2ae415caa4ce53e76a762ef649ad9a3 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 10 Apr 2024 17:03:19 +0200
+Subject: [PATCH 0/1] exiv2: Update CVE-2007-6353 status
+
+Current version 0.28.0 is not affected by the issue.
+Affected version: < 0.13-r1
+
+Ninette Adhikari (1):
+  exiv2: Update CVE-2007-6353 status
+
+ meta-oe/recipes-support/exiv2/exiv2_0.28.0.bb | 2 ++
+ 1 file changed, 2 insertions(+)
+
+-- 
+2.44.0
+
