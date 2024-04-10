@@ -10,6 +10,8 @@ SRC_URI = "git://github.com/civetweb/civetweb.git;branch=master;protocol=https \
            file://0001-Unittest-Link-librt-and-libm-using-l-option.patch \
            "
 
+CVE_STATUS[CVE-2019-3821] = "cpe-incorrect: None of the affected versions is used by meta-openembedded"
+
 S = "${WORKDIR}/git"
 
 # civetweb supports building with make or cmake (although cmake lacks few features)
