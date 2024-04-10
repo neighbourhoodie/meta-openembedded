@@ -19,6 +19,8 @@ SRC_URI = "git://github.com/proftpd/proftpd.git;branch=${BRANCH};protocol=https 
 
 S = "${WORKDIR}/git"
 
+CVE_STATUS[CVE-2001-0027] = "cpe-incorrect: This is only for ProFTPD running the mod_sqlpw module. This module is not used by meta-openembedded."
+
 inherit autotools-brokensep useradd update-rc.d systemd multilib_script
 
 EXTRA_OECONF += "--enable-largefile"
