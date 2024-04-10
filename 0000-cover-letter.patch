@@ -1,0 +1,17 @@
+From 3b74d647f22ec2dde3733249943a9fa52c7cb520 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 10 Apr 2024 15:19:24 +0200
+Subject: [PATCH 0/1] ace: Update CVE-2009-1147 status
+
+This issue is not valid as VMware ACE is no longer used. open-vm-tools is used instead which is part of the VMware ecosystem but not affected by this CVE.
+No action required. This issue can be removed from the CVE list.
+
+Ninette Adhikari (1):
+  ace: Update CVE-2009-1147 status
+
+ .../recipes-support/open-vm-tools/open-vm-tools_12.3.5.bb       | 2 ++
+ 1 file changed, 2 insertions(+)
+
+-- 
+2.44.0
+
