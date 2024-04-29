@@ -1,0 +1,17 @@
+From fea2c0e7ada6331b4d10e7a36d322c95b04dc1a6 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Mon, 29 Apr 2024 12:27:08 +0200
+Subject: [PATCH 0/1] sthttpd: Update status for CVE-2017-10671
+
+Current version 2.27.1 is not affected by the issue.
+Affected versions: Up to (excl.) 2.27.1
+
+Ninette Adhikari (1):
+  sthttpd: Update status for CVE-2017-10671
+
+ meta-webserver/recipes-httpd/sthttpd/sthttpd_2.27.1.bb | 2 ++
+ 1 file changed, 2 insertions(+)
+
+-- 
+2.44.0
+
