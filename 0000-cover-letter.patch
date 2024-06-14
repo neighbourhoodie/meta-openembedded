@@ -1,0 +1,19 @@
+From 004f9ae56c99322fa7951703df9043f269551dd2 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Fri, 14 Jun 2024 07:05:04 -0400
+Subject: [PATCH 0/1] smarty: Update status for CVE-2020-10375
+
+The recipe used in the meta-openembedded is a different package compared to the one which has the CVE issue.
+Package used in meta-embedded: https://www.smarty.net/
+Package with CVE issue is from newmediacompany: https://www.smarty-online.de
+No action required.
+
+Ninette Adhikari (1):
+  smarty: Update status for CVE-2020-10375
+
+ meta-oe/recipes-support/smarty/smarty_4.4.1.bb | 2 ++
+ 1 file changed, 2 insertions(+)
+
+--
+2.44.0
+
