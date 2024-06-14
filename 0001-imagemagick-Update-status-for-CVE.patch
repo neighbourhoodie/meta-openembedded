@@ -1,0 +1,46 @@
+From 41f79f559f30d760b042072701e136de9a2e2883 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Fri, 14 Jun 2024 07:41:23 -0400
+Subject: [PATCH 1/1] imagemagick: Update status for CVE
+
+Update status for:
+CVE-2014-9804, CVE-2014-9805, CVE-2014-9806, CVE-2014-9807, CVE-2014-9808, CVE-2014-9809, CVE-2014-9810, CVE-2014-9811, CVE-2014-9812, CVE-2014-9813, CVE-2014-9814, CVE-2014-9815, CVE-2014-9816, CVE-2014-9817, CVE-2014-9818, CVE-2014-9819, CVE-2014-9820, CVE-2014-9821, CVE-2016-7531
+
+CPE is incorrect, the current version (7.1.1) is not affected.
+
+Signed-off-by: Ninette Adhikari <ninette@thehoodiefirm.com>
+---
+ .../imagemagick/imagemagick_7.1.1.bb          | 20 +++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+diff --git a/meta-oe/recipes-support/imagemagick/imagemagick_7.1.1.bb b/meta-oe/recipes-support/imagemagick/imagemagick_7.1.1.bb
+index 6ab8a61b9..61dc1b795 100644
+--- a/meta-oe/recipes-support/imagemagick/imagemagick_7.1.1.bb
++++ b/meta-oe/recipes-support/imagemagick/imagemagick_7.1.1.bb
+@@ -99,3 +99,23 @@ ALTERNATIVE_LINK_NAME[montage.1] = "${mandir}/man1/montage.1"
+ ALTERNATIVE_TARGET[montage.1] = "${mandir}/man1/montage.im7.1"
+ ALTERNATIVE_LINK_NAME[stream.1] = "${mandir}/man1/stream.1"
+ ALTERNATIVE_TARGET[stream.1] = "${mandir}/man1/stream.im7.1"
++
++CVE_STATUS[CVE-2014-9804] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9805] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9806] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9807] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9808] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9809] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9810] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9811] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9812] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9813] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9814] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9815] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9816] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9817] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9818] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9819] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9820] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2014-9821] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 6.9.4-0"
++CVE_STATUS[CVE-2016-7531] = "cpe-incorrect: The current version (7.1.1) is not affected by the CVE which affects versions at least earlier than 7.0.1-0"
+--
+2.44.0
+
