@@ -1,0 +1,19 @@
+From 35a6beeeb80c31075bf09ebc0ced1249d6f385e1 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 26 Jun 2024 08:05:09 -0700
+Subject: [PATCH 0/1] apache2:apache2-native: CVE status update
+
+Update status for:
+CVE-2007-6421, CVE-2007-6422, CVE-2007-6423, CVE-2008-2168
+
+CPE is incorrect, the current version (2.4.59) is not affected.
+
+Ninette Adhikari (1):
+  apache2:apache2-native: CVE status update
+
+ meta-webserver/recipes-httpd/apache2/apache2_2.4.59.bb | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+--
+2.44.0
+
