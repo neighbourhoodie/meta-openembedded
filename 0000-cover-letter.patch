@@ -1,0 +1,19 @@
+From e3b571435d5c65f71d99bfb516ea0eab923c8d98 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 26 Jun 2024 06:53:54 -0700
+Subject: [PATCH 0/1] imagemagick: Update status for CVE
+
+Update status for:
+CVE-2016-7534, CVE-2016-7535, CVE-2016-7536, CVE-2016-7537, CVE-2016-7538, CVE-2017-5506, CVE-2017-5509, CVE-2017-5510, CVE-2017-5511, CVE-2007-1667
+
+CPE is incorrect, the current version (7.1.1) is not affected.
+
+Ninette Adhikari (1):
+  imagemagick: Update status for CVE
+
+ .../recipes-support/imagemagick/imagemagick_7.1.1.bb   | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+--
+2.44.0
+
