@@ -1,0 +1,18 @@
+From fc080b104e8f5ec926fda0c8374c58cad9ec32a3 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 26 Jun 2024 07:55:11 -0700
+Subject: [PATCH 0/1] xsp: CVE status update for CVE-2006-2658
+
+The recipe used in the `meta-openembedded` is a different xsp package compared to the one which has the CVE issue.
+Package used in `meta-embedded`: maemo xsp http://repository.maemo.org/pool/maemo/ossw/source/x/xsp/
+Package with CVE issue: mono xsp https://github.com/mono/xsp
+
+Ninette Adhikari (1):
+  xsp: CVE status update for CVE-2006-2658
+
+ meta-oe/recipes-multimedia/xsp/xsp_1.0.0-8.bb | 2 ++
+ 1 file changed, 2 insertions(+)
+
+--
+2.44.0
+
