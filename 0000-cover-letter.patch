@@ -1,0 +1,16 @@
+From 0faca8a22215a5884651b21cd271577e6a10bf69 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 26 Jun 2024 07:14:05 -0700
+Subject: [PATCH 0/1] influxdb: Update CVE status for CVE-2019-10329
+
+The versions don't match and only the Jenkins plugin is affected.
+
+Ninette Adhikari (1):
+  influxdb: Update CVE status for CVE-2019-10329
+
+ meta-oe/recipes-dbs/influxdb/influxdb_1.8.10.bb | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+--
+2.44.0
+
