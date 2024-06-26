@@ -1,0 +1,16 @@
+From 3d348ded55d6e077c72db92f013988f99e3a077c Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 26 Jun 2024 07:41:01 -0700
+Subject: [PATCH 0/1] usrsctp: CVE status update for CVE-2019-20503
+
+The current version (0.9.5.0) is not affected by the CVE which affects versions at least earlier than 0.9.4.0.
+
+Ninette Adhikari (1):
+  usrsctp: CVE status update for CVE-2019-20503
+
+ meta-networking/recipes-protocols/usrsctp/usrsctp_git.bb | 1 +
+ 1 file changed, 1 insertion(+)
+
+--
+2.44.0
+
