@@ -1,0 +1,16 @@
+From deb87ea9472f4d0fff1457cc5314c78bcf3667d7 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 3 Jul 2024 11:20:38 -0700
+Subject: [master][PATCH 0/1] redis: Update status for CVE-2022-3734
+
+CVE only applies for Windows.
+
+Ninette Adhikari (1):
+  redis: Update status for CVE-2022-3734
+
+ meta-oe/recipes-extended/redis/redis_7.2.5.bb | 2 ++
+ 1 file changed, 2 insertions(+)
+
+--
+2.44.0
+
