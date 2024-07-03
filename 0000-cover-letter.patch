@@ -1,0 +1,16 @@
+From 4030d9f98d6b9a894ae73245bf032c5fc796604c Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 3 Jul 2024 10:01:15 -0700
+Subject: [PATCH 0/1] php-native: CVE status update for CVE-2022-4900
+
+The current version (8.2.20) is not affected.
+
+Ninette Adhikari (1):
+  php-native: CVE status update for CVE-2022-4900
+
+ meta-oe/recipes-devtools/php/php_8.2.20.bb | 1 +
+ 1 file changed, 1 insertion(+)
+
+--
+2.44.0
+
