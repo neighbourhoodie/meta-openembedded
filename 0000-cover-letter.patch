@@ -1,0 +1,16 @@
+From 92043ead6bc1cc46bf1da1c229ad79f8bc0b9325 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 3 Jul 2024 11:52:31 -0700
+Subject: [master][PATCH 0/1] monkey: Update status for CVE-2013-2183
+
+Current version (1.6.9) is not affected. Issue was addressed in version 1.3.0
+
+Ninette Adhikari (1):
+  monkey: Update status for CVE-2013-2183
+
+ meta-webserver/recipes-httpd/monkey/monkey_1.6.9.bb | 1 +
+ 1 file changed, 1 insertion(+)
+
+--
+2.44.0
+
