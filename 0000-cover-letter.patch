@@ -1,0 +1,16 @@
+From c61a5b819e2f75464a8b8cbe21ffa3d206021e85 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 3 Jul 2024 10:52:44 -0700
+Subject: [master][PATCH 0/1] yelp: CVE status update for CVE-2008-3533
+
+The current version (42.2) is not affected. Fixed in 2.24
+
+Ninette Adhikari (1):
+  yelp: CVE status update for CVE-2008-3533
+
+ meta-gnome/recipes-gnome/yelp/yelp_42.2.bb | 2 ++
+ 1 file changed, 2 insertions(+)
+
+--
+2.44.0
+
