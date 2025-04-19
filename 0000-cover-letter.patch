@@ -1,0 +1,19 @@
+From 1914cd0ccc784fb86eb411a2d3f0ff6365b37eb6 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 26 Jun 2024 07:20:05 -0700
+Subject: [PATCH 0/1] mercurial: Update CVE status for CVE-2022-43410
+
+The recipe used in the `meta-openembedded` is a different mercurial package compared to the one which has the CVE issue.
+Package used in `meta-embedded`: https://www.mercurial-scm.org/
+Package with CVE issue is a Jenkins plugin: https://plugins.jenkins.io/mercurial/
+(This is reflected in the CPE)
+
+Ninette Adhikari (1):
+  mercurial: Update CVE status for CVE-2022-43410
+
+ meta-oe/recipes-devtools/mercurial/mercurial_6.6.3.bb | 1 +
+ 1 file changed, 1 insertion(+)
+
+--
+2.44.0
+
