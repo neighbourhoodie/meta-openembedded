@@ -1,0 +1,17 @@
+From b03089fd3c89842327e99b43064eb4a1e3a9231b Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 26 Jun 2024 07:49:16 -0700
+Subject: [PATCH 0/1] libraw: CVE status update for CVE-2020-22628 and
+ CVE-2023-1729
+
+The current version (0.21.2) is not affected by the CVE which affects versions earlier than 0.21.2.
+
+Ninette Adhikari (1):
+  libraw: CVE status update for CVE-2020-22628 and CVE-2023-1729
+
+ meta-oe/recipes-support/libraw/libraw_0.21.2.bb | 3 +++
+ 1 file changed, 3 insertions(+)
+
+--
+2.44.0
+
