@@ -1,0 +1,16 @@
+From 0ccbd4614eec2fd35fdb7d05cc13b36ff1105af6 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 3 Jul 2024 09:49:16 -0700
+Subject: [PATCH 0/1] gimp: CVE status update
+
+Update status for: CVE-2007-3741, CVE-2009-0581, CVE-2009-0723, CVE-2009-0733
+
+Ninette Adhikari (1):
+  gimp: CVE status update
+
+ meta-gnome/recipes-gimp/gimp/gimp_2.10.38.bb | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+--
+2.44.0
+
