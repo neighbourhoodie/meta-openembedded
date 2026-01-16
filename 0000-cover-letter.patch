@@ -1,0 +1,18 @@
+From f93195b20b31bc888a7ede49c044fece8f7092d6 Mon Sep 17 00:00:00 2001
+From: Ninette Adhikari <ninette@thehoodiefirm.com>
+Date: Wed, 26 Jun 2024 07:35:16 -0700
+Subject: [PATCH 0/1] links: CVE status update for CVE-2008-3319
+
+The recipe used in the `meta-openembedded` is a different links package compared to the one which has the CVE issue.
+Package used in `meta-embedded`: twibright links http://links.twibright.com/download.php
+Package with CVE issue: Maian Links https://www.maianmedia.com/
+
+Ninette Adhikari (1):
+  links: CVE status update for CVE-2008-3319
+
+ meta-oe/recipes-support/links/links_2.29.bb | 2 ++
+ 1 file changed, 2 insertions(+)
+
+--
+2.44.0
+
